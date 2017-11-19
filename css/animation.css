@@ -1,0 +1,43 @@
+
+
+#h5 {
+  animation:glow 5s ease-in-out infinite; 
+}
+
+
+
+body {
+
+  text-align:center;
+}
+
+figure {
+  animation:wobble 5s ease-in-out infinite;
+   transform-origin:left; 
+  transform-style:preserve-3d;
+}
+
+
+#h5 {
+  margin:0px;
+  display:block; 
+  padding:6px;
+  font-family: "sthupo", sans-serif;
+  font-size:27px;
+  text-transform:uppercase;
+  position:relative;
+  float:right;
+  color:metalblue;
+  background-color:rgba(255,255,255,0);
+  margin-left:200px;
+  border-radius:2px;
+}
+
+@keyframes glow {
+  0%,100%{ text-shadow:0 0 20px red; }
+25%{ text-shadow:0 0 20px cyan; }
+ 50%{ text-shadow:0 0 20px lime; }
+  75%{ text-shadow:0 0 20px gold; }
+}
+
+
